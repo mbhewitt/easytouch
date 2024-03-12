@@ -6,7 +6,6 @@ import BLE_GATT
 easytouch_devices={"kitchen":"XX:XX:XX:XX:XX:XX", #enter your bluetooth mac address here
                    "bedroom":"XX:XX:XX:XX:XX:XX",
                   }
-MODEL_NBR_UUID = "2A24"
 UUIDS = {
         "service":    '000000FF-0000-1000-8000-00805F9B34FB', #ro
         "jsonReturn": '0000FF01-0000-1000-8000-00805F9B34FB',
