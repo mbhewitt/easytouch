@@ -1,5 +1,4 @@
 import asyncio
-from bleak import BleakScanner,BleakClient
 import json
 import time
 import sys
