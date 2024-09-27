@@ -19,7 +19,7 @@ async def ask_easytouch(location,command,arg):
     address=easytouch_devices[location]
     ubit= BLE_GATT.Central(address)
     ubit.connect()
-    ubit.char_write(UUIDS["strangeCmd"], b'Cdw9@fL@6Gp7TXw')
+    ubit.char_write(UUIDS["strangeCmd"], b'{your_password}')
     status=get_status(ubit)
     if command=="off":
       power(ubit,0)
